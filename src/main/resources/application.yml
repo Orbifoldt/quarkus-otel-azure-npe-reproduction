@@ -1,0 +1,11 @@
+greeting:
+  message: "hello"
+
+quarkus:
+  rest-client:
+    "com.example.ExtensionsService":
+      url: https://stage.code.quarkus.io/api
+      verify-host: false
+  tls:
+    trust-all: true
+
