@@ -8,7 +8,7 @@
     }
   },
   "role": {
-    "name": "jeroen"
+    "name": "some-cloud-role"
   },
   "selfDiagnostics": {
     "destination": "file+console",
