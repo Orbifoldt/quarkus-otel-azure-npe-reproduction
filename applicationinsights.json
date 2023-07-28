@@ -1,0 +1,22 @@
+{
+  "connectionString": "InstrumentationKey=SOME_APP_INSIGHTS_ID;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/",
+  "preview":{
+    "instrumentation": {
+      "vertx": {
+        "enabled": true
+      }
+    }
+  },
+  "role": {
+    "name": "jeroen"
+  },
+  "selfDiagnostics": {
+    "destination": "file+console",
+    "level": "INFO",
+    "file": {
+      "path": "applicationinsights.log",
+      "maxSizeMb": 5,
+      "maxHistory": 1
+    }
+  }
+}
